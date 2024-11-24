@@ -16,9 +16,9 @@ install and enable sudo :
 >> pacman -S sudo
 
 install a bootloader :
->> pacman -S grub
->> grub-install --target=i386-pc /dev/sda  # Replace /dev/sda with your actual disk
->> grub-mkconfig -o /boot/grub/grub.cfg
+::>> pacman -S grub
+::>> grub-install --target=i386-pc /dev/sda  # Replace /dev/sda with your actual disk
+::>> grub-mkconfig -o /boot/grub/grub.cfg
 
 exit (out of chroot) :
 >> exit
