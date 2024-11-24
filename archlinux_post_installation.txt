@@ -95,3 +95,4 @@ a. tilix (alternate for terminator) yay -S tilix
 7. LANG TO INSTALL
 -------------------------
 a. rust  : pacman -S rust
+b. nodejs npm : pacman -S nodjes npm
