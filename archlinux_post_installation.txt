@@ -89,5 +89,9 @@ open :
 
 6. TOP TOOLS TO INSTALL
 --------------------------
-a. tilix (alternate for terminator)
+a. tilix (alternate for terminator) yay -S tilix
 
+
+7. LANG TO INSTALL
+-------------------------
+a. rust  : pacman -S rust
