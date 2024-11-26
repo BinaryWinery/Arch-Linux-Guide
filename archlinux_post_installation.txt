@@ -47,9 +47,11 @@ set the mirror :
 
 
 
-3 . FIX VMWARE NO FULL SCREEN
-------------------------------
+3 . FIX  NO FULL SCREEN VMWARE/VIRTUALBOX
+------------------------------------------
 
+VMWARE
+-------
 install open-vm-tools :
 >> sudo pacman -S open-vm-tools
 
@@ -58,6 +60,22 @@ enable :
 
 reboot : 
 >> sudo reboot
+
+
+VIRTUAL BOX
+------------
+Ensure that your system has the kernel headers installed for building the Guest Additions :
+>> sudo pacman -Syu linux-headers
+
+install the VirtualBox Guest Additions package :
+>> sudo pacman -S virtualbox-guest-utils
+
+Enable the vboxservice service :
+>> sudo systemctl enable --now vboxservice
+
+
+
+
 
 
 4 . INSTALL YAY
