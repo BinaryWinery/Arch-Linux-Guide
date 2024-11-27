@@ -108,6 +108,7 @@ open :
 6. TOP TOOLS TO INSTALL
 --------------------------
 a. tilix (alternate for terminator) yay -S tilix
+b. arpspoof : pacman -S dsniff
 
 
 7. LANG TO INSTALL
