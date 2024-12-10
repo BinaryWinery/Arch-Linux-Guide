@@ -1,5 +1,6 @@
 INDEX
 1.Share Files with ftp (VSFTPD)
+2.Simple MYSQL database server
 
 
 
@@ -16,7 +17,7 @@ INDEX
     c. start vsftpd
     ---------------
     >>systemctl start vsftpd //start vsftpd
-    >>systemctl enable vsftpd //starts in boot
+    >>systemctl enable vsftpd //always start in boot
     
     d. vsftpd status
     ----------------
@@ -25,3 +26,23 @@ INDEX
     e. access files in explorer
     ----------------------------
     [explorer] >> ftp://[system ip address]
+
+2.SIMPLE MYSQL DATABASE SERVER
+-------------------------------
+    a. install mysql server
+    -----------------------
+     >> sudo apt install mysql-server
+
+    b. start mysql server
+    ----------------------
+    >> systemctl start mysql // start mysql
+    >> systemctl enable mysql //always start on boot
+
+    c. run mysql
+    -------------
+    >> mysql -u root -p  //prompt to enter password
+
+    d. create new database
+    ----------------------
+
+    
