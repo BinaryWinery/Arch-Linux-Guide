@@ -1,0 +1,27 @@
+INDEX
+1.Share Files with ftp (VSFTPD)
+
+
+
+1.SHARE FILES WITH FTP (VSFTPD)
+-------------------------------
+    a. instal vsftpd
+    ----------------
+    >> apt install vsftpd
+    
+    b. configure vsftpd
+    -------------------
+    >> nano /etc/vsftpd.conf
+    
+    c. start vsftpd
+    ---------------
+    >>systemctl start vsftpd //start vsftpd
+    >>systemctl enable vsftpd //starts in boot
+    
+    d. vsftpd status
+    ----------------
+    >>systemctl status vsftpd
+    
+    e. access files in explorer
+    ----------------------------
+    [explorer] >> ftp://[system ip address]
