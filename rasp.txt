@@ -16,19 +16,22 @@ SETUP SSH SERVER
 -----------------------
 (file location) >> nano /etc/ssh/sshd_config
 (add lines)
-  1. SET PORT
+  1. set port
   ------------
   Port 2220
 
-2.enable password authentication
----------------------------------
-PasswordAuthentication yes
+  2.enable password authentication
+  ---------------------------------
+  PasswordAuthentication yes
+  
+  3.set banner
+  -----------------------------
+  Banner [banner location]
+  eg: Banner /etc/ssh/sshd_banner
 
-3.set banner
------------------------------
-Banner [banner location]
-eg: Banner /etc/ssh/sshd_banner
-
-
+5. get ssh logs
+-----------------
+>> journalctl -u ssh 
+>>journalctl -u ssh -f (-f for getting latest updates, realtime)
 
 
