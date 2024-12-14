@@ -1,0 +1,12 @@
+/bin   : Contains files(binary) for basic operations (eg:- ls,cd,mv,cp,rm..etc)which are available to every  users
+/sbin  : Contains administration files (binary) for managing the system (eg:- ifconfig,iwconfig,reboot ..etc) typically used by root users for administrative purposes (regular users may use if permission given)
+/boot  : Contains files required for booting the system(such as kernal,initial ram disk,bootloader files (like GRUB))
+/dev   : Contains Device files for hardwares (/dev/sda (hard disk),/dev/usb (usb devices), /dev/wlan0 (wifi adaptors))
+/etc   : Contains system wide configurations of system tools and services,network services,applications setting and other essential system configurations
+/home  : Contains personal directories for regular users (which contain folders like Documents,Downloads,Desktop,Pictures..etc) and where user specific configurations and applications located
+/lib   : Contains essential shared libraries required by system biinaries (located in /bin and /sbin) also contains libraries that are needed for system to function and kernal modules  ( stored in /lib/modules)
+/lib   : Contains 64-bit versions of shared libraries required by system binaries
+/media : Contains removable media devices like USB,CD,DVD..etc (devices are automatically mounted here)
+/mnt   : Used for mounting external systems mannually such as network shares,external drives or temporary mounting additional fle systems
+/opt   : Contains software packages that are not part of core system (such as thirdparty applications installed by administrator) 
+/proc  : Contains information about running processes and kernel parameters (like /proc/cpuinfo for CPU info and /proc/meminfo for memory usage statistics).
