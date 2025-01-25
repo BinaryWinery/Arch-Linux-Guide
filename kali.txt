@@ -1,0 +1,8 @@
+CHANGE LOCKSCREEN WALLPAPPER
+------------------------------
+lockscreen file location :  /usr/share/desktop-base/kali-theme/login
+replace the files inn this  with the new image
+
+OPEN FILEMANAGER FROM TERMINAL
+------------------------------
+xdg-open [location]
