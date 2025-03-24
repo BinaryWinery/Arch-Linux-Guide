@@ -95,6 +95,9 @@ goto yay directory :
 install yay :
 >> makepkg -si
 
+incase write permission error:
+>> sudo chown -R $USER:$USER [yay git location (local)]
+
 
 5. INSTALL TOR BROWSER
 ----------------------
